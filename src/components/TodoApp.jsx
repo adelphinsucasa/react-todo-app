@@ -1,5 +1,5 @@
-import Header from 'components/Header';
-import TodosLogic from 'components/TodosLogic';
+import Header from './Header';
+import TodosLogic from './TodosLogic';
 
 const TodoApp = () => (
   <div className="wrapper">

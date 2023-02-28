@@ -29,11 +29,10 @@ const InputTodo = ({ addTodoItem }) => {
           onChange={handleChange}
           className="input-text"
         />
-        <button type="button" className="input-submit">Submit</button>
+        <button type="button" className="input-submit" onClick={handleSubmit}>Submit</button>
       </form>
       <span className="submit-warning">{message}</span>
     </>
-
   );
 };
 export default InputTodo;
